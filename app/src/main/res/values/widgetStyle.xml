@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="read_book_radiobutton">
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@drawable/selector_readbook_textcolor</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="anim_licai_detial_bottombar">
+        <item name="android:windowEnterAnimation">@anim/tran_licai_detial_open</item>
+        <item name="android:windowExitAnimation">@anim/tran_licai_detial_close</item>
+    </style>
+    
+    <style name="anim_settring_">
+        <item name="android:windowEnterAnimation">@anim/setting_open</item>
+        <item name="android:windowExitAnimation">@anim/setting_close</item>
+    </style>
+    
+</resources>

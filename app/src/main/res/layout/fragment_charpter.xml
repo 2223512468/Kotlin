@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:minHeight="300dp"
+    android:orientation="vertical">
+    <ListView
+        android:id="@+id/charpter_listview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:dividerHeight="0.7dp"
+        android:listSelector="@color/trans"
+        android:overScrollMode="never"
+        android:padding="8dp"
+        android:scrollbars="none" />
+</LinearLayout>
